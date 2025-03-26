@@ -1,0 +1,55 @@
+# Diretórios do Visual Studio e do .NET que não devem ser versionados
+.vs/
+bin/
+obj/
+TestResults/
+packages/
+node_modules/
+logs/
+
+# Arquivos de configuração do usuário
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.swp
+
+# Configurações do Rider e ReSharper
+.idea/
+*.DotSettings.user
+
+# Arquivos de build e cache
+*.log
+*.cache
+*.ilk
+*.pdb
+*.exp
+*.dll
+*.exe
+*.nupkg
+*.snupkg
+
+# Configuração do NuGet
+.nuget/
+project.lock.json
+project.assets.json
+PackageReferences.lock
+packages.lock.json
+
+# Arquivos temporários do sistema
+Thumbs.db
+Desktop.ini
+~$*
+
+# Certificados e configurações locais sensíveis
+*.pfx
+*.key
+secrets.json
+appsettings.Development.json
+
+# Para excluir arquivos gerados automaticamente pelo Entity Framework Migrations
+Migrations/
+
+# Arquivos específicos do Mac/Linux
+.DS_Store
+*.vscode/
